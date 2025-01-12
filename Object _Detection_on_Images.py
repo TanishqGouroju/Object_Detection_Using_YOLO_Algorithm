@@ -70,7 +70,6 @@ for out in outs:
 indices = cv2.dnn.NMSBoxes(boxes, confidences, conf_threshold, nms_threshold)
 
 # Draw bounding boxes on the image
-# Draw bounding boxes on the image
 for i in indices:
     box = boxes[i]
     x, y, w, h = box
